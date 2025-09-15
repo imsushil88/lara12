@@ -13,4 +13,9 @@ class ExampleTest extends TestCase
     {
         $this->assertTrue(true);
     }
+
+    public function test_local_true_is_true(): void
+    {
+        $this->assertTrue(true);
+    }
 }
